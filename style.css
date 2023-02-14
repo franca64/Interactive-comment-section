@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+body{
+    background-color: hsl(223, 19%, 93%);
+}
+.box1{
+    display: flex;
+    align-content: center;
+    justify-content:flex-start; 
+    padding-left: 20px; 
+    padding-top: 15px;
+    width: 520px;
+    background-color:  hsl(0, 0%, 100%); 
+    border-radius: 6px;
+}
+
+.box1 button{ 
+    border-radius:7px;
+    color: hsl(239, 57%, 85%);
+    height: 5rem;
+    width: 2rem; 
+    border: none;
+    line-height: 1.5;
+}  
+  .box1 p{
+    color: hsl(238, 40%, 52%);
+    font-size: 14px;
+    font-weight: 700;
+}  
+.comment_holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.firstComment{
+    display: flex;
+    justify-content:space-between; 
+    width: 100%;
+    flex-direction: column;
+}
+.reply_holder{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3px;
+}
+.firstComment h6{
+    font-weight: 500;
+    color:  hsl(211, 10%, 45%);
+}
+.firstComment p{
+    color:  hsl(238, 40%, 52%);
+    font-size: 11px;
+    font-weight:bolder;
+}
+.timeFrame{
+    display: flex;
+}
+.timeFrame img{
+    margin-left: 15px;
+}
+.timeFrame p{
+    margin-left: 5px; 
+}
+.timeFrame h6{
+    margin-left: 5px;
+}
+.reply{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 9%; 
+   padding-right: 20px;
+}
+/* .comment{
+    display: flex;
+    align-items: flex-end; 
+} */
+.comment p{
+    margin-left: 15px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    color:  hsl(211, 10%, 45%);
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 12px;
+}
+.box2{
+    display: flex;
+    align-content: center;
+    justify-content:flex-start; 
+    padding-left: 20px; 
+    padding-top: 15px;
+    width: 520px;
+    /* height: 6rem; */
+    background-color:  hsl(0, 0%, 100%); 
+    border-radius: 6px;
+}
+.comment_holder2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.box2 button{ 
+    border-radius:7px;
+    color: hsl(239, 57%, 85%);
+    height: 5rem;
+    width: 2rem; 
+    border: none; 
+    line-height: 1.5;
+}
+.box2 p{
+    color: hsl(238, 40%, 52%);
+    font-size: 14px;
+    font-weight: 700;
+}
+button p{
+    color:hsl(238, 40%, 52%);   
+}
+.secondComment{
+    display: flex;
+    justify-content:space-between; 
+    width: 100%;
+    flex-direction: column;
+}
+.secondComment p{
+    font-size: 11px;
+    font-weight:bolder;
+    color:hsl(211, 10%, 45%);
+}
+.secondComment h6{
+    font-weight: 500;
+    color:hsl(211, 10%, 45%);
+}
+.reply p{
+    color: hsl(238, 40%, 52%);
+}
+.timeFrame p{
+    color:black;
+    font-size: 11px;
+    font-weight:bolder;
+}
+.response_holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-left: 87px;
+}
+.box3{
+    display: flex;
+    align-content: center;
+    justify-content:flex-start; 
+    padding-left: 20px; 
+    padding-top: 15px;
+    width: 430px;
+    /* height: 6rem; */
+    background-color:  hsl(0, 0%, 100%); 
+    border-radius: 6px;
+}
+.box3 button{ 
+    border-radius:7px;
+    color: hsl(239, 57%, 85%);
+    height: 5rem;
+    width: 2rem; 
+    border: none; 
+    line-height: 1.5;
+}
+.firstResponse h6{
+color: hsl(211, 10%, 45%);
+}
+.firstResponse{
+    display: flex;
+    justify-content:space-between; 
+    width: 100%;
+    flex-direction: column;
+}
+.firstResponse p{
+    /* color:  hsl(238, 40%, 52%); */
+    font-size: 11px;
+    font-weight:bolder;
+}
+.comment span{
+    color:hsl(238, 40%, 52%);
+    font-weight: bold;
+}
+.box4{
+    display: flex;
+    align-content: center;
+    justify-content:flex-start; 
+    padding-left: 20px; 
+    padding-top: 15px; 
+    width: 430px;
+    /* height: 6rem; */
+    background-color:  hsl(0, 0%, 100%); 
+    border-radius: 6px;
+}
+.box4 button{ 
+    border-radius:7px;
+    color: hsl(239, 57%, 85%);
+    height: 5rem;
+    width: 2rem; 
+    border: none; 
+    line-height: 1.5;
+}
+.response_holder2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-left: 87px;
+}
+.secondResponse{
+    display: flex;
+    justify-content:space-between; 
+    width: 85%;
+    flex-direction: column;
+}
+.secondResponse p{
+    /* color:  hsl(238, 40%, 52%); */
+    font-size: 11px;
+    font-weight:bolder;
+}
+.reply_holder button{
+    width: 1.5rem;
+    height: 1rem;
+    background-color: hsl(238, 40%, 52%);
+    border-radius: 3px;
+}   
+button{
+    color: hsl(0, 0%, 100%);
+    font-size: 11px;
+    margin-left: 3px;
+}
+.secondResponse h6{
+    color: hsl(211, 10%, 45%);
+}
+.delete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 9%; 
+    padding-right: 20px;
+}
+.delete{
+    display: flex;
+    justify-content: space-evenly;
+} 
+.delete img{
+   margin-left: 10px; 
+}
+.delete p{
+    margin-left: 5px;
+}
+.trash{
+    margin-right: 5px; 
+    color: hsl(358, 79%, 66%);
+}
+.p{
+    margin-left: 15px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    color:  hsl(211, 10%, 45%);
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 12px;
+} 
+.response{
+    display: flex;
+}
+
+.commenter p{
+    margin-left: 15px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    color:  hsl(211, 10%, 45%);
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 12px;
+    width: max-content;
+}
+.commenter span{
+    color:hsl(238, 40%, 52%);
+    font-weight: bold;
+}
+.reply_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.box5{
+    display: flex;
+    align-content: center;
+    justify-content:flex-start; 
+    padding-left: 20px; 
+    padding-top: 15px;
+    width: 520px;
+    /* height: 5rem; */
+    background-color:  hsl(0, 0%, 100%); 
+    border-radius: 6px;
+}
+input{
+    width: 300px;
+    height: 60px;
+    border-radius:4px;
+    border: 1.5px solid hsl(223, 19%, 93%) ;
+    outline: 15px;
+}
+::placeholder{
+    font-size: 11px;
+    font-weight: bold;
+    padding-left:15px;
+}
+.box5 button{
+    background-color:hsl(238, 40%, 52%);
+    width: 5rem;
+    height: 2.3rem;
+    border-radius: 5px;
+    border: 1.5rem;
+}
+.box5{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.vertical{
+    border-left: 1px solid  hsl(239, 57%, 85%);
+    height: 234px;
+    position: absolute;
+    left: 33%;
+    margin-left: -3px;
+    top:20;
+}
+@media (max-width: 375px){
+ .vertical{
+    left: 12%;
+    height: 220px;
+ }
+ .comment_holder{
+    width: 505px;
+ }
+ .comment_holder2{
+    width: 505px;
+ }
+ .response_holder{
+    width: 413px;
+ }
+ .response_holder2{
+    width: 400px;
+ }
+ .reply_area{
+    width: 505px;
+ }
+}
+
+
+    
